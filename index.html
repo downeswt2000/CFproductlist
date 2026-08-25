@@ -519,6 +519,22 @@ main.wrap{ padding: 0 28px 20px; }
   object-fit: cover;
 }
 
+.info-pack-link{
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--pine);
+  text-decoration: none;
+  border-bottom: 1px solid var(--pine);
+  padding-bottom: 1px;
+}
+.info-pack-link:hover{
+  opacity: 0.75;
+}
+
 /* ---------- Tooltip ---------- */
 
 .tooltip{
@@ -1790,7 +1806,8 @@ const PRODUCTS = [
   "note": "Pre order only: Ribeye steaks on the bone 350-400g. Waterlands farm, Sussex Cross, 24-36 months",
   "status": "unavailable",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Beef.pdf"
  },
  {
   "name": "Beef - Roasting",
@@ -1813,7 +1830,8 @@ const PRODUCTS = [
   "note": "Pre order only : Pre order only : Waterlands farm, Sussex Cross, 24-36 months",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Beef.pdf"
  },
  {
   "name": "Beef - Striploin",
@@ -1836,7 +1854,8 @@ const PRODUCTS = [
   "note": "Pre order only : Waterlands farm, Sussex Cross, 24-36 months",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Beef.pdf"
  },
  {
   "name": "Beetroot (Organic)",
@@ -2089,7 +2108,8 @@ const PRODUCTS = [
   "note": "Tangmere, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Bell Peppers.pdf"
  },
  {
   "name": "Bell Peppers - Mixed",
@@ -2112,7 +2132,8 @@ const PRODUCTS = [
   "note": "Tangmere, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Bell Peppers.pdf"
  },
  {
   "name": "Bell Peppers - Orange",
@@ -2135,7 +2156,8 @@ const PRODUCTS = [
   "note": "Tangmere, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Bell Peppers.pdf"
  },
  {
   "name": "Bell Peppers - Red",
@@ -2158,7 +2180,8 @@ const PRODUCTS = [
   "note": "Tangmere, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Bell Peppers.pdf"
  },
  {
   "name": "Bell Peppers - Yellow",
@@ -2181,7 +2204,8 @@ const PRODUCTS = [
   "note": "Tangmere, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Bell Peppers.pdf"
  },
  {
   "name": "Blackberries - Frozen",
@@ -2204,7 +2228,8 @@ const PRODUCTS = [
   "note": "FROZEN Chichester grown whole Blackberries",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Blackberries - Keymer Brook Farm",
@@ -2250,7 +2275,8 @@ const PRODUCTS = [
   "note": "Chichester Grown, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Blackcurrant Leaves",
@@ -2319,7 +2345,8 @@ const PRODUCTS = [
   "note": "Chichester grown Super Sweet blueberries (Clear Film Lid)",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Blueberries - Frozen",
@@ -2342,7 +2369,8 @@ const PRODUCTS = [
   "note": "FROZEN Chichester grown whole Blueberries",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Blueberries - Keymer Brook Farm",
@@ -2388,7 +2416,8 @@ const PRODUCTS = [
   "note": "Chichester Grown Super sweet class 1, open top plastic punnet",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Broccoli",
@@ -2434,7 +2463,8 @@ const PRODUCTS = [
   "note": "Regeneratively grown in Kent",
   "status": "unavailable",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Purple Sprouting Broccoli.pdf"
  },
  {
   "name": "Broccoli - Purple Sprouting, Local (Organic)",
@@ -2457,7 +2487,8 @@ const PRODUCTS = [
   "note": "Cambridgeshire Grown Organic",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Purple Sprouting Broccoli.pdf"
  },
  {
   "name": "Broccoli - Tenderstem",
@@ -2710,7 +2741,8 @@ const PRODUCTS = [
   "note": "English Grown / Imported",
   "status": "available",
   "originDetail": "Occasionally supplemented with imported stock",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Carrots.pdf"
  },
  {
   "name": "Carrots - Baby Orange",
@@ -2802,7 +2834,8 @@ const PRODUCTS = [
   "note": "English Grown",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Carrots.pdf"
  },
  {
   "name": "Carrots - Chantenay Herritage",
@@ -2825,7 +2858,8 @@ const PRODUCTS = [
   "note": "Uk grown",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Carrots.pdf"
  },
  {
   "name": "Carrots - Heritage Mixed",
@@ -3009,7 +3043,8 @@ const PRODUCTS = [
   "note": "Broadstairs, Kent / French in gaps",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Cauliflower.pdf"
  },
  {
   "name": "Cauliflower - Purple",
@@ -3036,7 +3071,7 @@ const PRODUCTS = [
  },
  {
   "name": "Cavolo Nero",
-  "origin": "West Sussex",
+  "origin": "Surrey",
   "group": "Vegetables",
   "months": [
    2,
@@ -3052,10 +3087,11 @@ const PRODUCTS = [
    2,
    2
   ],
-  "note": "Secretts fram, Sussex",
+  "note": "Hurst Farm, Surrey",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Cavolo Nero.pdf"
  },
  {
   "name": "Cavolo Nero (Organic)",
@@ -3101,7 +3137,8 @@ const PRODUCTS = [
   "note": "English Grown",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Celeriac.pdf"
  },
  {
   "name": "Celeriac (Organic)",
@@ -3124,7 +3161,8 @@ const PRODUCTS = [
   "note": "Laines Organics, Cuckfield",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Celeriac (Organic).pdf"
  },
  {
   "name": "Celeriac - Baby",
@@ -3193,7 +3231,8 @@ const PRODUCTS = [
   "note": "Milford Grown",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Rainbow Chard.pdf"
  },
  {
   "name": "Chard - Rainbow (Organic)",
@@ -3606,52 +3645,6 @@ const PRODUCTS = [
   ],
   "note": "Regeneratively grown in Kent",
   "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Cream - Double",
-  "origin": "Sussex",
-  "group": "Dairy & Eggs",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Downsview Dairy, Lewes, Sussex",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Cream - Single Organic",
-  "origin": "West Sussex",
-  "group": "Dairy & Eggs",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Goodwood, West Sussex",
-  "status": "hidden",
   "originDetail": "",
   "images": []
  },
@@ -4205,7 +4198,8 @@ const PRODUCTS = [
   "note": "Highden Estate, South Downs",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Garlic - Wild.pdf"
  },
  {
   "name": "Garlic - Wild Leaf",
@@ -4228,7 +4222,8 @@ const PRODUCTS = [
   "note": "Highden Estate, South Downs (Retail pack with Sussex wild garlic label)",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Garlic - Wild.pdf"
  },
  {
   "name": "Gooseberries",
@@ -4343,53 +4338,8 @@ const PRODUCTS = [
   "note": "WARNING  (These are a bit spicy due to stressed early season plants) Bosham Grown, LARGE padrons, around 25g /10cm each .",
   "status": "unavailable",
   "originDetail": "",
-  "images": []
- },
- {
-  "name": "Honey - Downlands",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Downlands farm",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Honey - Local",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "From Tom's Bees - Branded Stor Valley farm",
-  "status": "available",
-  "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Padron Peppers.pdf"
  },
  {
   "name": "Honeyberries",
@@ -4438,119 +4388,28 @@ const PRODUCTS = [
   "images": []
  },
  {
-  "name": "Honeycomb",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
+  "name": "Jersey Royals Washed",
+  "origin": "UK",
+  "group": "Vegetables",
   "months": [
+   0,
+   0,
+   1,
    2,
    2,
    2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
-  "note": "From Tom's bees in Storrington and packed by Kathy from bury bees",
+  "note": "",
   "status": "hidden",
   "originDetail": "",
-  "images": []
- },
- {
-  "name": "Juice - Apple",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Ringden Farm, Sussex, freshly pressed apple juice. 10L BAG IN BOX",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Juice - Apple & Raspberyy 'Ringden Farm'",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Ringden Farm, Sussex",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Juice - Apple Ringden Farm",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Ringden Farm, Sussex",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Juice - Apple Sweet",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Ringden Farm, Sussex",
-  "status": "available",
-  "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Jersey Royal Potatoes.pdf"
  },
  {
   "name": "Kale - Green",
@@ -4642,7 +4501,8 @@ const PRODUCTS = [
   "note": "Organic Cambridgeshire Grown",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Kalettes.pdf"
  },
  {
   "name": "Kiwifruit",
@@ -5746,7 +5606,8 @@ const PRODUCTS = [
   "note": "Cambridgeshire Grown",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Mushrooms - Chestnut and Portobello.pdf"
  },
  {
   "name": "Mushrooms - Cups",
@@ -5953,7 +5814,8 @@ const PRODUCTS = [
   "note": "Cambridgeshire Grown",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Mushrooms - Chestnut and Portobello.pdf"
  },
  {
   "name": "Mushrooms - Shiitake (Organic)",
@@ -6048,190 +5910,6 @@ const PRODUCTS = [
   "images": []
  },
  {
-  "name": "Nice Slice - Grapefruit",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely in Chichester to maintain increble aroma, flavour and colour, Sussex APROX 13 PIECES",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nice Slice - Lemon",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely in Chichester, to maintain increble aroma, flavour and colourSussex APROX 24 PIECES",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nice Slice - Lime",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely in Chichester, to maintain increble aroma, flavour and colour Sussex APROX 25 PIECES",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nice Slice - Orange",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely in Chichester to maintain increble aroma, flavour and colour, Sussex APROX 22 PIECES",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nutbourne Blush 2022",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Nutbourne Vineyard single estate - A dry blush rose wine made from a combined pressing of our Pinot Blanc and Pinot Noir",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nutbourne Hedgerow 2022",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Nutbourne Vineyard single estate - A blend of Shonburger, Bacchus and Huxelrebe creates a beautifully rounded wine with a big wildflower bouquet and an abundance of hedgerow fruits.",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nutbourne Nutty Wild",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Nutbourne Vineyard single estate - A lower alcohol sparkling wine made by the second pressing of Chardonnay and Pinot Noir grapes",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Nutbourne Sussex Reserve",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Nutbourne Vineyard single estate -Field blend of Riesling-style German varietals with Pinot Noir",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
   "name": "Nutbourne Tomatoes - Cherry On Vine",
   "origin": "West Sussex",
   "group": "Vegetables",
@@ -6252,7 +5930,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Cherry Orange Vine",
@@ -6275,7 +5954,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Cherry Piccolo",
@@ -6298,7 +5978,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Chocolate Cherry",
@@ -6321,7 +6002,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Classic",
@@ -6344,7 +6026,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Exotic mix of large and Midi fruited varieties",
@@ -6367,7 +6050,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Fruited Vine Exotic Small Mixed",
@@ -6390,7 +6074,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Golden Classic Vine",
@@ -6413,7 +6098,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Golden Cocktail Vine",
@@ -6436,7 +6122,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Heirloom Mixed",
@@ -6459,7 +6146,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Heritage Beef",
@@ -6482,7 +6170,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Marmande",
@@ -6505,7 +6194,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Mix Heritage Loose",
@@ -6528,7 +6218,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Nutbourne Class 2",
@@ -6551,7 +6242,8 @@ const PRODUCTS = [
   "note": "Nutbourne",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Orange Classic Vine",
@@ -6574,7 +6266,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Pink Beef",
@@ -6597,7 +6290,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Plum Large Vine",
@@ -6620,7 +6314,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Plum Strawmatoe Baby Vine",
@@ -6643,7 +6338,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Pumpkin Plum Midi Vine",
@@ -6666,7 +6362,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Purple Star Vine",
@@ -6689,7 +6386,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Red Cocktail Vine",
@@ -6712,7 +6410,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Red Tiger Loose",
@@ -6735,7 +6434,8 @@ const PRODUCTS = [
   "note": "Nutbourne",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - San Marzano Large Loose",
@@ -6758,7 +6458,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - San Marzano Mini Vine",
@@ -6781,7 +6482,8 @@ const PRODUCTS = [
   "note": "Nutbourne, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Nutbourne Tomatoes - Tiger Lemon Loose",
@@ -6804,7 +6506,8 @@ const PRODUCTS = [
   "note": "Nutbourne",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Nutbourne Tomatoes.pdf"
  },
  {
   "name": "Onions - Brown",
@@ -6920,6 +6623,30 @@ const PRODUCTS = [
   "status": "hidden",
   "originDetail": "",
   "images": []
+ },
+ {
+  "name": "Parsley - Flat Leaf",
+  "origin": "Surrey",
+  "group": "Herbs",
+  "months": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "note": "Hurst Farm, Surrey \u2014 hand-harvested year-round",
+  "status": "available",
+  "originDetail": "",
+  "images": [],
+  "infoPack": "info-packs/Flat Leaf Parsley.pdf"
  },
  {
   "name": "Parsley Root (Organic)",
@@ -7658,6 +7385,54 @@ const PRODUCTS = [
   "images": []
  },
  {
+  "name": "Potatoes - Jersey Mids",
+  "origin": "UK",
+  "group": "Vegetables",
+  "months": [
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "note": "Jersey grown, mids size.",
+  "status": "hidden",
+  "originDetail": "",
+  "images": [],
+  "infoPack": "info-packs/Jersey Royal Potatoes.pdf"
+ },
+ {
+  "name": "Potatoes - Jersey Royal",
+  "origin": "UK",
+  "group": "Vegetables",
+  "months": [
+   0,
+   0,
+   1,
+   2,
+   2,
+   2,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "note": "Last of the season: Jersey Royals are hand-picked, showered in fresh cold water, and coated with natural coir to protect and enhance their delicate skin.",
+  "status": "available",
+  "originDetail": "",
+  "images": [],
+  "infoPack": "info-packs/Jersey Royal Potatoes.pdf"
+ },
+ {
   "name": "Potatoes - La Ratte",
   "origin": "Kent",
   "group": "Vegetables",
@@ -8000,7 +7775,8 @@ const PRODUCTS = [
   "note": "Organic Grown, Suffolk",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Radish (Organic).pdf"
  },
  {
   "name": "Radish - Bunched (Organic)",
@@ -8023,7 +7799,8 @@ const PRODUCTS = [
   "note": "Organic Grown, Suffolk",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Radish (Organic).pdf"
  },
  {
   "name": "Radish - Watermelon",
@@ -8092,7 +7869,8 @@ const PRODUCTS = [
   "note": "FROZEN Chichester grown whole Raspberreis",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Raspberries - Keymer Brook Farm",
@@ -8138,7 +7916,8 @@ const PRODUCTS = [
   "note": "Sussex Grown, Class 1 open Punnet Raspberry",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Redcurrants",
@@ -8159,121 +7938,6 @@ const PRODUCTS = [
    0
   ],
   "note": "Secretts of Milford",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "RESQ Powder - Blueberry",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Chichester grown and Dehyrated slowely to preserve amazing colour aroma and flavour",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "RESQ Powder - Lemon",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely to maintain increble aroma, flavour and colour in Chichester, Sussex",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "RESQ Powder - Lime",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely to maintain increble aroma, flavour and colour in Chichester, Sussex",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "RESQ Powder - Orange",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Rescued from Waste and Dehydrated slowely to maintain increble aroma, flavour and colour in Chichester, Sussex",
-  "status": "hidden",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "RESQ Powder - Raspberry",
-  "origin": "West Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Chichester grown and Dehyrated slowely to preserve amazing colour aroma and flavour",
   "status": "hidden",
   "originDetail": "",
   "images": []
@@ -8736,7 +8400,8 @@ const PRODUCTS = [
   "note": "Thakeham, baby size",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Squash - Butternut.pdf"
  },
  {
   "name": "Squash - Butternut XL",
@@ -8759,7 +8424,8 @@ const PRODUCTS = [
   "note": "Thakeham grown around 2kg each and great if processing them for soups etc.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Squash - Butternut.pdf"
  },
  {
   "name": "Squash - Butternut, 500-800g (Organic)",
@@ -8782,7 +8448,8 @@ const PRODUCTS = [
   "note": "Organic Grown, Suffolk",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Squash - Butternut (Organic).pdf"
  },
  {
   "name": "Squash - Butternut, 800-1200g (Organic)",
@@ -8805,7 +8472,8 @@ const PRODUCTS = [
   "note": "500-800g (Name being changed) Organic Grown, Suffolk",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Squash - Butternut (Organic).pdf"
  },
  {
   "name": "Squash - Crown Prince",
@@ -8851,7 +8519,8 @@ const PRODUCTS = [
   "note": "Foskett Farms Organics, Woodbridge, Suffolk",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Squash - Crown Prince (Organic).pdf"
  },
  {
   "name": "Squash - Delicata (Organic)",
@@ -9291,29 +8960,6 @@ const PRODUCTS = [
   "images": []
  },
  {
-  "name": "Stor Valley X Farmer J - Apple & Pear",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Stor Valley X Farmer J - sparking fruit juice, Sussex wonky apples .",
-  "status": "unavailable",
-  "originDetail": "",
-  "images": []
- },
- {
   "name": "Strawberries - Bayley & Sage",
   "origin": "Sussex",
   "group": "Fruit",
@@ -9357,7 +9003,8 @@ const PRODUCTS = [
   "note": "FROZEN Chichester grown whole strawberries",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Strawberries - Green",
@@ -9380,7 +9027,8 @@ const PRODUCTS = [
   "note": "Chichester, West Sussex",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Strawberries - Jamming",
@@ -9449,7 +9097,8 @@ const PRODUCTS = [
   "note": "Chichester Grown, Clear film top with Union Jack",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Strawberries - Wonky",
@@ -9472,7 +9121,8 @@ const PRODUCTS = [
   "note": "New forest grown Wonky Strawberries (very good price and delicious, just some funky shapes.)",
   "status": "unavailable",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Berries.pdf"
  },
  {
   "name": "Swedes",
@@ -9679,7 +9329,8 @@ const PRODUCTS = [
   "note": "Sussex Grown Cherry on the vine ungraded, very sweet",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Cherry.pdf"
  },
  {
   "name": "Tomatoes - Cherry Orange",
@@ -9702,7 +9353,8 @@ const PRODUCTS = [
   "note": "Barnham grown, Loose Cherry Tomatoes (Fallen off vine hence price)",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Cherry.pdf"
  },
  {
   "name": "Tomatoes - Classic",
@@ -9725,7 +9377,8 @@ const PRODUCTS = [
   "note": "Sussex Grown Classic tomatoes ungraded",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Vine.pdf"
  },
  {
   "name": "Tomatoes - Cocktail",
@@ -9748,7 +9401,8 @@ const PRODUCTS = [
   "note": "Sussex Grown very sweet Loose cocktail tomatoes",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Vine.pdf"
  },
  {
   "name": "Tomatoes - Green",
@@ -9771,7 +9425,8 @@ const PRODUCTS = [
   "note": "Soil grown green classic size tomato",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Vine.pdf"
  },
  {
   "name": "Tomatoes - Sauce",
@@ -9794,7 +9449,8 @@ const PRODUCTS = [
   "note": "No Tops",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Vine.pdf"
  },
  {
   "name": "Tomatoes - Sussex Sweet Plum",
@@ -9817,7 +9473,8 @@ const PRODUCTS = [
   "note": "Arundel",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Tomatoes - Vine.pdf"
  },
  {
   "name": "Truffles - Autumn",
@@ -9909,7 +9566,8 @@ const PRODUCTS = [
   "note": "FROZEN - Wild Sussex FALLOW, 4 x Barnsley chops in vac pack bags... Average weight 600g per chop.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Burgers",
@@ -9932,7 +9590,8 @@ const PRODUCTS = [
   "note": "Pre order only: Wild Sussex Fallow 15% beef fat for the Perfect venison burger, average size 170g",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Diced",
@@ -9955,7 +9614,8 @@ const PRODUCTS = [
   "note": "FROZEN - Wild Sussex Fallow, Prime cut trimmed & diced, Class 1",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Fillet",
@@ -9978,7 +9638,8 @@ const PRODUCTS = [
   "note": "FROZEN - whole pair of loins - Wild Sussex Fallow Deer Backstops, roughly 2kg Per pack.",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Haunch Boneless Rolled",
@@ -10001,7 +9662,8 @@ const PRODUCTS = [
   "note": "Pre order only: Wild Sussex Fallow",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Minced",
@@ -10024,7 +9686,8 @@ const PRODUCTS = [
   "note": "Pre order only: Wild Sussex Fallow, Prime cut trimmed & Minced 10mm.,",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Minced 12% Fat",
@@ -10047,7 +9710,8 @@ const PRODUCTS = [
   "note": "Wild Sussex Fallow, Prime cut trimmed & Minced 10mm, With 12% beef fat.",
   "status": "available",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Minced 30% Fat",
@@ -10070,7 +9734,8 @@ const PRODUCTS = [
   "note": "Wild Sussex Fallow, Prime cut trimmed & Minced 10mm, With 30% beef fat.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Minced 30% Fat & Seasoned",
@@ -10093,7 +9758,8 @@ const PRODUCTS = [
   "note": "Wild Sussex Fallow, Prime cut trimmed & Minced 10mm, With 30% beef fat and seasoning mix.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Minced 40% Fat",
@@ -10116,7 +9782,8 @@ const PRODUCTS = [
   "note": "Wild Sussex Fallow, Prime cut trimmed & Minced 10mm, With 40% beef fat.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Rack French Trimmed",
@@ -10139,7 +9806,8 @@ const PRODUCTS = [
   "note": "Pre order only: West Sussex shot wild fallow - Whole saddle, into 2 x FR rack with of trim and bone packed together (i.e. if a Whole saddle weighs 3kg, finished product will total 3kg)",
   "status": "limited",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Saddle",
@@ -10162,7 +9830,8 @@ const PRODUCTS = [
   "note": "Pre order only: Wild Sussex Fallow, whole saddle with Bone in.",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Shoulder",
@@ -10185,7 +9854,8 @@ const PRODUCTS = [
   "note": "Pre order only: Wild Sussex Fallow,",
   "status": "hidden",
   "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Venison - Whole",
@@ -10208,30 +9878,8 @@ const PRODUCTS = [
   "note": "Pre order only: Whole Carcass Wild sussex fallow deer",
   "status": "hidden",
   "originDetail": "",
-  "images": []
- },
- {
-  "name": "Vinegar - Apple Cider",
-  "origin": "Sussex",
-  "group": "Pantry & Drinks",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Ringden Farm, Sussex",
-  "status": "available",
-  "originDetail": "",
-  "images": []
+  "images": [],
+  "infoPack": "info-packs/Venison.pdf"
  },
  {
   "name": "Watercress",
@@ -10252,29 +9900,6 @@ const PRODUCTS = [
    0
   ],
   "note": "Chalke Valley Watercress near salisbury",
-  "status": "available",
-  "originDetail": "",
-  "images": []
- },
- {
-  "name": "Yoghurt - Natural",
-  "origin": "Sussex",
-  "group": "Dairy & Eggs",
-  "months": [
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2,
-   2
-  ],
-  "note": "Lewes, Sussex",
   "status": "available",
   "originDetail": "",
   "images": []
@@ -10346,6 +9971,9 @@ function buildDetailPanel(product){
   if (product.images && product.images.length){
     const imgs = product.images.map(src => `<img src="${escapeHtml(src)}" alt="${escapeHtml(product.name)}">`).join('');
     parts.push(`<div class="detail-images">${imgs}</div>`);
+  }
+  if (product.infoPack){
+    parts.push(`<p><a class="info-pack-link" href="${escapeHtml(product.infoPack)}" target="_blank" rel="noopener noreferrer">&#128196; View info pack</a></p>`);
   }
   if (!parts.length){
     parts.push(`<p class="detail-empty">No additional info yet.</p>`);
@@ -10596,7 +10224,7 @@ render();
 // View toggle: defaults to matching the real device width, but a manual
 // click on Desktop/Mobile overrides that until the other option is clicked.
 const viewToggleButtons = document.querySelectorAll('.view-toggle-btn');
-const mobileQuery = window.matchMedia('(max-width: 680px)');
+const mobileQuery = window.matchMedia ? window.matchMedia('(max-width: 680px)') : { matches: false, addEventListener: function(){} };
 let manualView = null; // null = follow real device, otherwise 'mobile' | 'desktop'
 
 function applyView(){
